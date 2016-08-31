@@ -47,8 +47,6 @@ cover:
 ##
 
 rel:
-		mkdir -p /root/.config/rebar3
-		echo '{plugins, [rebar3_hex]}.' > /root/.config/rebar3/rebar.config
 		./rebar3 as prod release
 
 stage:
