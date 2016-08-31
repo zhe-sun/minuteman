@@ -47,7 +47,7 @@ cover:
 ##
 
 rel:
-		./rebar3 as prod release
+		rebar3 as prod release
 
 stage:
 		./rebar3 release
